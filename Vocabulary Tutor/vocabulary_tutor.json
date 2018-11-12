@@ -1,0 +1,108 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "vocabulary tutor",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "Done",
+                        "I am done making Flashcards",
+                        "We are finished",
+                        "We're finished",
+                        "I'm done making Flashcards",
+                        "I am finished",
+                        "I'm finished",
+                        "I'm done",
+                        "I am done",
+                        "We are done",
+                        "We're done"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MakeFlashcardsIntent",
+                    "slots": [],
+                    "samples": [
+                        "Make me flashcards",
+                        "Can you make new flashcards please",
+                        "Can you create new flashcards please",
+                        "I want you to create flashcards",
+                        "I want you to make flashcards",
+                        "I want to create flashcards",
+                        "I want to make flashcards",
+                        "Make us some new flashcards",
+                        "Create us some new flashcards",
+                        "Make some new flashcards",
+                        "Create some new flashcards",
+                        "Create new flashcards please",
+                        "Make new flashcards please",
+                        "Please make us new flashcards",
+                        "Please create us new flashcards",
+                        "Make us new flashcards",
+                        "Create us new flashcards",
+                        "Make us flashcards",
+                        "Create us flashcards",
+                        "Can you please make us new flashcards",
+                        "Can you please create us new flashcards",
+                        "Can you create us new flashcards",
+                        "Can you make us new flashcards",
+                        "Build us new flashcards",
+                        "Play flashcards",
+                        "Build me new flashcards",
+                        "Can you make new flashcards",
+                        "Can you create new flashcards",
+                        "Can you please create flashcards",
+                        "Can you create flashcards",
+                        "Can you make flashcards",
+                        "Create new flashcards",
+                        "Build me flashcards",
+                        "Make me new flashcards"
+                    ]
+                },
+                {
+                    "name": "SpellingQuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "can you please quiz me",
+                        "Can you quiz me",
+                        "Quiz me",
+                        "Please quiz me",
+                        "I would like to be quizzed",
+                        "I want to spell",
+                        "I want to practice spelling"
+                    ]
+                },
+                {
+                    "name": "LearnToSpellIntent",
+                    "slots": [],
+                    "samples": [
+                        "I want to learn spelling",
+                        "I want to learn",
+                        "Tell me how to spell",
+                        "I want to learn how to spell",
+                        "I want to learn to spell",
+                        "Teach me how to spell",
+                        "Teach me to spell"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
